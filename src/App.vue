@@ -17,10 +17,12 @@ export default {
 </script>
 
 <style lang="scss">
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Roboto';
-}
+@import "./assets/style/main.scss";
 
+#app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 </style>

@@ -30,10 +30,12 @@ export default {
 
 <style lang="scss">
   #navbar {
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    background: white;
     .content {
       width: 1260px;
       display: flex;
