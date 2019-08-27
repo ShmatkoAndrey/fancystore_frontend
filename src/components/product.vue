@@ -1,8 +1,8 @@
 <template>
   <div class="product" :class="'product-' + size">
-    <div class="image">
+    <router-link :to="'product/' + product.id" class="image">
       <img :src="product.images[0].url">
-    </div>
+    </router-link>
     <div class="description">
       <div class="text-side">{{product.name}}</div>
       <div class="price-side">

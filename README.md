@@ -14,3 +14,16 @@ npm run serve
 ```
 npm run build
 ```
+
+### TODO:
+
+-[x] Init and setting up app
+-[x] Feed
+-[x] Products feed
+-[x] Popular
+-[x] Shops
+-[ ] Product page
+-[ ] Cart
+-[ ] Login/Register
+-[ ] Create product
+-[ ] Admin CRM

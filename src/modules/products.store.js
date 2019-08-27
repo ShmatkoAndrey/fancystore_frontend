@@ -40,6 +40,13 @@ const store = {
           commit("setProductImagesInShop", {id: sh.id, images: shres.data})
         })
       })
+    },
+    fetchProduct({commit, state}, id) {
+      return new Promise((resolve, reject) => {
+        axios(BASE_API + "/products/" + id).then(res => {
+          resolve(res.data);
+        })
+      })
     }
 
   },

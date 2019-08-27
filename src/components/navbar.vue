@@ -36,6 +36,11 @@ export default {
     display: flex;
     justify-content: center;
     background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
     .content {
       width: 1260px;
       display: flex;
