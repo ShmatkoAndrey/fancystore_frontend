@@ -12,6 +12,9 @@ export default {
   components: { Navbar },
   created() {
     this.$store.dispatch("fetchCategories");
+
+    this.$store.dispatch("setToken", {token: localStorage.getItem('token')});
+    this.$store.dispatch("fetchCurrentUser");
   }
 }
 </script>
